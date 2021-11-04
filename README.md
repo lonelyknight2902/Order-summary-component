@@ -44,33 +44,30 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Throughout this project, I have been able to apply my knowledge on HTML, CSS, flexbox and improve my visual skills by looking at the given design and understanding how to get that look with HTML and CSS.
 
-To see how you can add code snippets, see below:
+Here's mostly what I learned by styling the card class:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.card {
+  width: 327px;
+  height: 567px;
+  margin: 70px auto;
+  margin-bottom: 60px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 5px 25px 15px hsl(223, 100%, 91%);
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
 In the future, I want to continue to perfect my CSS skills and move on to React as well as exploring to the backend and other technologies. My top priority would be creating my personal website and a website for touring my former high school (due to the COVID-19 pandemic, new students still haven't gotten the chance to tour our beloved school).
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
